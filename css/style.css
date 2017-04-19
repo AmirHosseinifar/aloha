@@ -1,0 +1,67 @@
+#container{
+  width:1240px;
+}
+#aloha{
+  width: 50px;
+  height:50px;
+}
+
+#cart-icon{
+width: 50px;
+height:50px;
+
+}
+nav ul li a{
+  color:black;
+}
+header{
+  text-align: center;
+}
+#cart-icon{
+  float: right;
+}
+#aloha{
+  float: left;
+}
+header img, header nav {
+  display: inline-block; 
+  vertical-align: middle;
+}
+
+nav li{
+display: inline;
+margin-right: 15px;
+
+}
+nav a{
+  text-decoration: none;
+}
+nav a:hover{
+ text-decoration: none; 
+}
+section{
+height: 400px;
+ background: url("../images/banner-girl.png") no-repeat center top,
+  url("../images/flower-bkgd.jpg") no-repeat center;
+background-size: 200px, cover;
+  position: relative;
+  text-align: center;
+}
+
+.vertical-center{
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  text-align: center;
+color: white;
+}
+.vertical-center p{
+  font-size: 14px;
+}
+.vertical-center h3{
+  font-size: 26px;
+}
+
+ 
+text-align: center;
+}
