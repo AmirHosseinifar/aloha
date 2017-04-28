@@ -1,10 +1,9 @@
 # Aloha Project
 
-This is my description
-
+This Project is building a responsive e-commerce website with HTML, CSS, JavaScript
 ## What I learned 
 
-- one 
+- 
 - two 
 - three
 
