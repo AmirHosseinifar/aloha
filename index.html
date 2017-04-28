@@ -1,98 +1,147 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title> aloha-desktop-1240px.png</title>
-  </head>
-  <body>
-    <div class="container">
-    <header>
-      <img src="images/aloha-logo.svg" alt="aloha image" id="aloha">
-      <nav>
-      <ul>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">SHOP</a></li>
-        <li><a href="#">FEATURED</a></li>
-        <li><a href="#">UPDATES</a></li>
-      </ul>
-     
-      </nav>
-       <img src="images/cart-icon.svg" alt="cart icon" id="cart-icon">
-    </header>
-    <section>
-      <div class="vertical-center">
-      <p>NEW COLLECTION</p>
-      <h3>Spring/Summer 2016</h3>
+<head>
+  <meta charset="utf-8">
+  <script src="https://use.fontawesome.com/382f947f1c.js"></script>
+  <link rel="stylesheet" href="css/style.css" >
+  <link rel="stylesheet" href="lib/flickity/flickity.min.css" >
+  <title> aloha Co</title>
+</head>
+<body>
+  <header class="nav-container">
+    <div class="aloha-logo">
+      <img src="images/aloha-logo.svg" alt="aloha image" class="aloha-logo">
+    </div>  
+    <div class="cart-icon">
+      <img src="images/cart-icon.svg" alt="cart icon" class="cart-icon">
+    </div>
+    <nav class="navigation">
+      <ul class="nav-links">
+        <li><a href="#" class="nav-item">about</a></li>
+        <li><a href="#" class="nav-item">shop</a></li>
+        <li><a href="#" class="nav-item">featured</a></li>
+        <li><a href="#" class="nav-item">updates</a></li>
+        </ul>
+    </nav>
+  </header>
+  <section class="first-section">
+    <div class="vertical-center">
+      <p class="new-collection">NEW COLLECTION</p>
+      <p class="spring-summer">Spring/Summer 2016</p>
+    </div>
+  </section>
+  <div class="hand-crafted container">
+    <h2 class="hc"><em>Hand-Crafted</em><strong> Styles</strong></h2>
+    <p class="hand-crafted-aloha">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below</p>
+  </div>
+  <section class="shop
+  ">
+    <div class="category">
+    <div class="men">
+      <span class="category-text"><a href="#">Men's</a></span>
+    </div> 
+    <div class="trends">
+      <span class="category-text"><a href="#">Trends</a></span>
+    </div> 
+    <div class="glasses">
+      <span class="category-text"><a href="#">Glasses</a></span>
+    </div> 
+    <div class="sale">
+      <span class="category-text"><a href="#">Sale</a></span>
+    </div> 
+    <div class="bags">
+      <span class="category-text"><a href="#">Bags</a></span>
+    </div> 
+    <div class="women">
+      <span class="category-text"><a href="#">Women</a></span>
+    </div> 
+    </div>
+  </section>
+  <div class="loved-products">
+    <h2><span>Most-Loved</span>Products</h2>
+    <div class="carousel" data-flickity='{"autoPlay": 1500, "pauseAutoplayOnHover": true}'>
+      <div class="cell">
+        <img src="images/stretch-knit-dress.jpg" alt="Stretch Knit Dress">
+        <p>Dresses</p>
+        <h3 class="item-name">Stretch Knit Dress</h3>
+        <p class="price">$169.00</p>
       </div>
-    </section>
-    <div class="Hand-Crafted">
-      <h3>Hand-Crafted Styles</h3>
-      <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below</p>
+      <div class="cell">
+        <img src="images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt">
+        <p>Shirts</p>
+        <h3 class="item-name">Cotton Blue Shirt</h3>
+        <p class="price">$189.00</p>
+      </div>
+      <div class="cell">
+        <img src="images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
+        <p>Dress</p>
+        <h3 class="item-name">Checked Stretch Dress</h3>
+        <p class="price">$129.00</p>
+      </div>
+      <div class="cell">
+        <img src="images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
+        <p>BAGS</p>
+        <h3 class="item-name">Blue Hipster Backpack</h3>
+        <p>$69.00</p>
+      </div>
+      <div class="cell">
+        <img src="images/demin-overall-shorts.jpg" alt="demin-overall-shorts">
+        <p>DEMIN</p>
+        <h3 class="item-name">Demin Overall Shorts</h3>
+        <p>$89.00</p>
+      </div>
+      <div class="cell">
+        <img src="images/pink-dotted-dress.jpg" alt="pink-dotted-dress">
+        <p>Dresses</p>
+        <h3 class="item-name">Pink Dotted Dress</h3>
+        <p>$99.00</p>
+      </div>
+      <div class="cell">
+        <img src="images/blue-silk-dress.jpg"  alt="blue-silk-dress">
+        <p>Dresses</p>
+        <h3 class="item-name">Blue-Silk-Dress</h3>
+        <p class="price">$119.00</p>
+      </div>
+      <div class="cell">
+        <img src="images/cotton-yellow-tshirt.jpg" alt="Cotton yellow Tshirt">
+        <p>shirts</p>
+        <h3 class="item-name">Cotton Yellow Tshirt</h3>
+        <p class="price">$39.00</p>
+      </div>
     </div>
-    <div>
-      <ul>
-        <li><a href="#">MEN'S</a></li>
-        <li><a href="#">TRENDS</a></li>
-        <li><a href="#">GLASSES</a></li>
-        <li><a href="#">SALE</a></li>
-        <li><a href="#">BAGS</a></li>
-        <li><a href="#">WOMEN'S</a></li>
-      </ul>
-    </div>
-    <div>
-      <h3>Most-Loved Products</h3>
-      <ul>
-        <li>
-          <img src="images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
-          <p>DRESS</p>
-          <p>Checked Stretch Dress</p>
-          <p>$129.00</p>
-        </li>
-        <li>
-          <img src="images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
-          <p>BAGS</p>
-          <p>Blue Hipster Backpack</p>
-          <p>$69.00</p>
-        </li>
-        <li>
-          <img src="images/demin-overall-shorts.jpg" alt="demin-overall-shorts">
-          <p>DEMIN</p>
-          <p>Demin Overall Shorts</p>
-          <p>$89.00</p>
-        </li>
-        <li>
-          <img src="images/pink-dotted-dress.jpg" alt="pink-dotted-dress">
-          <p>DRESSES</p>
-          <p>Pink Dotted Dress</p>
-          <p>$99.00</p>
+  </div>
+  <div class="sign-up container">
+    <h2 class="sign-up-update">Sign-up for Updates</h2>
+    <p class="sign-up-text">Stay updated our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+  <form class="sign-up-form">
+    <input type="email" name="name" placeholder="your email" id="signUp">
+    <input type="submit" name="name" value="Subscribe">
+  </form>
+</div>
+    <footer class="footer">
+      <div class="footer-container container">
+      <div class="contant-us">
+        <p class="copy-right">&copy; 2016 Aloha Apparel Co.</p>
+        <p>Powered by HTML and CSS.</p>
+        <p class="contacts">604-60406040.<a href="#">info@alohaapparel.com</a></p>
+        <p class="address">1490 W Broadway</p>
+        <p class="address">Vancouver, BC, Canada</p>    
+      </div>
+      <div class="social-media">
+        <ul >
+          <li><a href="#"><i class="social fa fa-facebook"></i><span class="social-text">Facebook</span></a></li>
+          <li><a href="#"><i class="social fa fa-twitter"></i><span class="social-text">Twitter</span></a></li>
+          <li><a href="#"><i class="social fa fa-instagram"></i><span class="social-text">Instagram</span></a></li>
+          <li><a href="#"><i class="social fa fa-pinterest"></i><span class="social-text">Pinterest</span></a></li>
+          <li><a href="#"><i class="social fa fa-google-plus"></i><span class="social-text">Google+</span></a></li> 
+        </ul>
+      </div>
+      </div>
+    </footer>
 
-        </li>
-      </ul>
-    </div>
-    <div>
-      <h3>Sign-up for Updates</h3>
-      <p>Stay updated our latest product releases, be first to find out about<br> upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
-      <input type="text" value="text">
-      <button>Subscribe</button>
-      </div>
-      <footer>
-        <div>
-          <p> 2016 Aloha Apparel Co. <br> Powered by HTML and CSS.</p>
-          <p>604-60406040.<a href="#">info@alohaapparel.com</a></p>
-          <br>
-          <p>&copy;1490 W Broadway<br>Vancouver, BC, Canada</p>    
-        </div>
-        <div>
-          <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Pinterest</a></li>
-            <li><a href="#">Google+</a></li>
-            
-          </ul>
-        </div>
-      </footer>
-    </div>
-  </body>
+  
+  <script src="lib/jquery-3.2.1.min.js"></script>
+  <script src="lib/flickity/flickity.pkgd.min.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>
